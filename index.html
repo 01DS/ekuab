@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ikram Abdella, Computer Science graduate and aspiring developer." />
+  <title>Ikram Abdella | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-one"></div>
+  <div class="bg-glow bg-glow-two"></div>
+
+  <header class="site-header">
+    <a href="#home" class="logo">IA<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ikram Abdella</h1>
+        <h2>Computer Science Graduate <span>&</span> Aspiring Developer</h2>
+        <p class="hero-text">I enjoy building practical software, learning through hands-on projects, and using technology to solve real-world problems.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View My Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="status-dot"></div>
+        <p>Based in</p>
+        <h3>Chiro (Asebe Teferi), Ethiopia</h3>
+        <div class="mini-grid">
+          <div><span>Degree</span><strong>Computer Science</strong></div>
+          <div><span>Graduated</span><strong>April 2026</strong></div>
+          <div><span>CGPA</span><strong>3.84</strong></div>
+          <div><span>Focus</span><strong>Web & IT</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am a Computer Science graduate from Oda Bultum University with an interest in web development, IT support, information systems, and practical software solutions.</p>
+          <p>I have internship experience at Awash Bank, where I supported employees with work-related tasks in a professional banking environment. I also developed leadership and coordination experience by serving as a class representative for five years and as a group leader since my first year.</p>
+        </div>
+        <div class="about-card reveal">
+          <span>Currently interested in</span>
+          <ul>
+            <li>Junior web development roles</li>
+            <li>IT support and e-learning roles</li>
+            <li>Graduate trainee opportunities</li>
+            <li>Remote and freelance projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span class="skill-number">01</span><h3>Programming</h3><p>Java, C++</p></div>
+        <div class="skill-card reveal"><span class="skill-number">02</span><h3>Frontend</h3><p>HTML, CSS, JavaScript</p></div>
+        <div class="skill-card reveal"><span class="skill-number">03</span><h3>Backend</h3><p>Node.js, Express.js</p></div>
+        <div class="skill-card reveal"><span class="skill-number">04</span><h3>Database</h3><p>MySQL</p></div>
+        <div class="skill-card reveal"><span class="skill-number">05</span><h3>Tools</h3><p>Git, GitHub, Visual Studio Code</p></div>
+        <div class="skill-card reveal"><span class="skill-number">06</span><h3>Other</h3><p>Microsoft Word, Excel, PowerPoint, communication, teamwork</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <h2>Selected work</h2>
+      </div>
+
+      <article class="project-card featured reveal">
+        <div class="project-visual cosmetics-visual">
+          <div class="mock-window">
+            <div class="mock-bar"><i></i><i></i><i></i></div>
+            <div class="mock-content">
+              <span>HAYU</span>
+              <strong>Beauty. Care. Confidence.</strong>
+              <div class="mock-products"><b></b><b></b><b></b></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-topline"><span>Independent Project</span><span>Full Stack</span></div>
+          <h3>Hayu Cosmetics</h3>
+          <p>A cosmetics e-commerce project with product browsing, cart and checkout functionality, database-backed product management, and an admin dashboard for managing products and orders.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-visual meal-visual">
+          <div class="qr-card"><div class="qr"></div><span>STUDENT MEAL ACCESS</span><small>Scan • Validate • Record</small></div>
+        </div>
+        <div class="project-info">
+          <div class="project-topline"><span>Group Academic Project</span><span>University Project</span></div>
+          <h3>University Meal-Card System</h3>
+          <p>A cafeteria access system using QR codes linked to student IDs, with role-based access and meal-time validation to help prevent duplicate scans and scans outside designated meal periods.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MySQL</span><span>QR Codes</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading reveal"><p class="eyebrow">04 / EDUCATION & EXPERIENCE</p><h2>My background</h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><span class="timeline-date">April 2026</span><h3>Bachelor's Degree in Computer Science</h3><p>Oda Bultum University</p><small>CGPA: 3.84</small></div>
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><span class="timeline-date">March 2025</span><h3>Intern — Awash Bank</h3><p>Supported employees with work-related tasks in a professional banking environment.</p></div>
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><span class="timeline-date">Leadership</span><h3>Class Representative & Group Leader</h3><p>Served as class representative for five years and as a group leader since first year, coordinating groups and helping manage student-teacher processes.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's build something useful.</h2>
+        <p>I am open to entry-level IT opportunities, junior development roles, graduate trainee positions, and freelance projects.</p>
+        <div class="contact-links"><a href="mailto:nejulemami@gmail.com">nejulemami@gmail.com</a><a href="tel:+251945416225">0945416225</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Ikram Abdella. Built with HTML, CSS & JavaScript.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
